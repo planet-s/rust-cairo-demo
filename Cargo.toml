@@ -1,0 +1,9 @@
+[package]
+name = "rust-cairo-demo"
+version = "0.1.0"
+authors = ["Michael Hölzl <FlowPX2@googlemail.com>"]
+edition = "2018"
+
+[dependencies]
+rust-cairo = { git = "https://gitlab.redox-os.org/redox-os/rust-cairo.git" }
+orbclient = "*"
